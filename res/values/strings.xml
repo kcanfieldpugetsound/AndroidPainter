@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiniPaint</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="clear_button">Clear Screen</string>
+    <string name="file_button">Load File</string>
+    
+    <string-array name="draw_mode_array">
+        <item>Point Mode</item>
+        <item>Line Mode</item>
+        <item>Circle Mode</item>
+        <item>Polyline Mode</item>
+        <item>Rectangle Mode</item>
+        <item>Flood Fill Mode</item>
+        <item>Airbrush Mode</item>
+    </string-array>
+
+    <string-array name="minipaint_array">
+        <item>@raw/test1</item>
+        <item>@raw/hi</item>
+        <item>@raw/flower</item>
+        <item>@raw/house</item>
+    </string-array>
+    
+    
+</resources>

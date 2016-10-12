@@ -1,0 +1,55 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <cs315.KramerCanfield.hwk2.MiniPaintView
+   		android:id="@+id/paint_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="100"
+    />
+    
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+	    <Spinner
+			android:id="@+id/draw_mode_spinner"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	/>
+	
+		<Spinner
+	   		android:id="@+id/color_spinner"
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="wrap_content"
+	 		/>
+
+   		<Button
+	    	android:id="@+id/clear_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/clear_button"
+			android:onClick="clearButton"
+			android:textSize="14sp"
+			android:layout_marginLeft="25dp"
+	    />
+
+   	</LinearLayout>
+   		   		
+  	<Button
+    	android:id="@+id/file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/file_button"
+		android:onClick="fileButton"
+		android:textSize="14sp"
+    />
+   		
+   		
+	
+</LinearLayout>
